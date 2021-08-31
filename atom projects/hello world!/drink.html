@@ -1,0 +1,75 @@
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<style>
+.disappear {
+    animation: disappear 0s linear 3.35s forwards;
+}
+
+@keyframes disappear {
+    to {opacity:0;}
+}
+  .complete {
+    position: relative;
+    bottom: 160px;
+    left: 42.25%;
+    opacity: 0;
+
+    animation-name: opacityOn;
+    animation-duration: 100ms;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+
+
+
+}
+
+
+  .juicehead {
+    position: relative;
+    bottom: 160px;
+    left: 42.25%;
+    opacity: 0;
+
+    animation-name: opacityOn;
+    animation-duration: 100ms;
+    animation-delay: 4.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+  @keyframes opacityOn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+</style>
+<body style= "background: #000000">
+<center>
+
+
+<img class= "disappear" src= "https://cdn.glitch.com/5a041da6-312a-463e-82da-3ce74e1de2f9%2F1227695_sinlessshadow_loading.gif?v=1619212204390">
+<h2 class = "disappear" style= " bottom: 160px;
+    left: 42.25%;position: absolute; font-family: 'VT323', monospace; color: #50ff29">
+  LOADING...
+  </h2>
+
+
+<div class= "complete">
+<h2 style= "position: absolute; font-family: 'VT323', monospace; color: #50ff29">
+  COMPLETE!
+</h2>
+</div>
+
+<div class= "juicehead">
+  <h2 style= "position: absolute; top:30px; left: -150px; font-family: 'VT323', monospace; color: #50ff29">
+  The Green Juice Has Entered Your Bloodstream.
+  </div>
+</center>
+</body>
+</html>

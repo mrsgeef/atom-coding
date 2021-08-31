@@ -1,0 +1,692 @@
+
+<html>
+
+
+  <style>
+
+  a { color:white } /* Globally */
+
+/* Each state */
+
+a:visited { text-decoration: none; color:white; }
+a:hover { text-decoration: none; color:white; }
+a:focus { text-decoration: none; color:white; }
+a:hover, a:active { text-decoration: none; color:white }
+    .body {
+      margin-top: 50px
+    }
+    p.outset {border-style: outset;}
+
+   .tab {
+     position: absolute;
+  width: 400px;
+left:420px;
+  background-color:white;
+  text-shadow:2px 2px 2px black;
+  border: 5px outset #82ff93;
+  border-radius: 7px;
+  background-color: #03fc24;
+  box-shadow: 5px 5px 20px black;
+  font-stretch: ultra-expanded;
+  font-family: 'Exo', sans-serif;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+  to {
+  text-shadow: 0 0 20px #eb007d, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+
+      }
+
+
+      .ad1{
+ position: absolute;
+   opacity: 0;
+   top: 10px;
+  left: 850px;
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 2s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+
+
+    .ad2 {
+ position: absolute;
+  top: 160px;
+left: 850px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 6s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+
+
+    .ad3 {
+ position: absolute;
+top: 270px ;
+  left: 850px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 9s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+
+
+    .ad4 {
+position: absolute;
+  top: 400px;
+left: 850px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 10s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+
+
+    .ad5 {
+position: absolute;
+  top: 530px;
+left: 850px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 11s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+       .ad8 {
+position: absolute;
+  top: 580px;
+left: 830px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 11.5s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+       .ad9 {
+position: absolute;
+  top: 630px;
+left: 790px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 12s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+       .ad10 {
+position: absolute;
+  top: 680px;
+left: 750px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 12.5s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+       .ad11 {
+position: absolute;
+  top: 720px;
+left: 710px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 13s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+    .ad32 {
+position: absolute;
+  top: 760px;
+left: 670px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 13.5s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+    .ad33 {
+position: absolute;
+  top: 800px;
+left: 630px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 14s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+    .ad34 {
+position: absolute;
+  top: 840px;
+left: 590px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 14.5s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+    .ad35 {
+position: absolute;
+  top: 890px;
+left: 550px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 15s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+     .ad6 {
+position: absolute;
+  top: 400px;
+left: 20px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 12.5s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+    .ad12 {
+position: absolute;
+  top: 450px;
+left: 0px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 13s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+    .ad13 {
+position: absolute;
+  top: 500px;
+left: -20px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 13.5s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+    .ad14 {
+position: absolute;
+  top: 550px;
+left: -30px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 14s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+    .ad15 {
+position: absolute;
+  top: 600px;
+left: -10px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 14.5s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+    .ad16 {
+position: absolute;
+  top: 650px;
+left: 10px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 15s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+    .ad17 {
+position: absolute;
+  top:700px;
+left: 40px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 15.5s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+    .ad18 {
+position: absolute;
+  top: 650px;
+left: 100px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 16s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+     .ad19 {
+position: absolute;
+  top: 600px;
+left: 150px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 16.5s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+     .ad20 {
+position: absolute;
+  top: 550px;
+left: 200px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 17s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+     .ad21 {
+position: absolute;
+  top: 500px;
+left: 250px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 17.5s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+     .ad22 {
+position: absolute;
+  top: 450px;
+left: 300px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 18s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+    .ad23 {
+position: absolute;
+  top: 500px;
+left: 350px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 18.5s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+    .ad7 {
+position: absolute;
+  top: 430px;
+left: 320px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 17.5s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+       .ad24 {
+position: absolute;
+  top: 450px;
+left: 20px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 18s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+       .ad25 {
+position: absolute;
+  top: 500px;
+left: 320px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 18.5s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+       .ad26 {
+position: absolute;
+  top: 550px;
+left: 620px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 19s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+       .ad27 {
+position: absolute;
+  top: 600px;
+left: 220px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 19.5s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+    .ad28 {
+position: absolute;
+  top: 650px;
+left: 320px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 20s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+    .ad29 {
+position: absolute;
+  top: 700px;
+left: 420px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 20.5s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+    .ad30 {
+position: absolute;
+  top: 730px;
+left: 320px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 21s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+    .ad31 {
+position: absolute;
+  top: 780px;
+left: 320px;
+   opacity: 0;
+
+   animation-name: opacityOn;
+   animation-duration: 100ms;
+   animation-delay: 21.5s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+ @keyframes opacityOn {
+   0% {
+       opacity: 0;
+   }
+   100% {
+       opacity: 1;
+}
+.container { position: absolute;}
+  </style>
+  <body
+  style=
+  "background: rgb(202,111,255);
+  background: -moz-linear-gradient(top,  rgba(100, 10, 130) 0%, rgba(199,77,255,1) 51%, rgba(135, 14, 176) 85%, rgba(100, 10, 130) 100%);
+  background: -webkit-linear-gradient(top,  rgba(202,111,255,1) 0%,rgba(199,77,255,1) 51%,rgba(170,67,255,1) 85%,rgba(212,85,255,1) 100%);
+  background: linear-gradient(to bottom,  rgba(202,111,255,1) 0%,rgba(199,77,255,1) 51%,rgba(170,67,255,1) 85%,rgba(212,85,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ca6fff', endColorstr='#d455ff',GradientType=0 )">
+
+
+  <center>
+  <div class= "container">
+
+    <img style= "position:absolute;
+                 top: 200 px;
+             left:-20px;
+                 width: 400px;
+                 height: 400px"
+         src= "buffguygifagainagain.gif">
+    <div class= "tab">
+
+
+    <a href="getripped.html"
+    style= "text-decoration: none; text-decoration: none"
+    target="popup"
+    onclick="window.open('getripped.html','popup','width=600,height=400'); return false;">
+  <h2 style= "white">
+  Get Ripped!
+  </h2>
+</a>
+  </div>
+  </div>
+  <div style= "top:100px "class= "tab">
+   <h2  >
+ Realistic Game For Men
+  </h2>
+  </div>
+     <div style= "top:200px "class= "tab">
+   <h2  style= "color: ">
+  Best Ointments
+  </h2>
+  </div>
+     <div style= "top:300px "class= "tab">
+   <h2  style= "color: ">
+  Illegal Downloads
+  </h2>
+  </div>
+     <div style= "top:400px "class= "tab">
+   <h2  style= "color: ">
+     Free Surgery
+  </h2>
+  </div>
+  <div class= "ad1">
+ <img style= "height: 150px; width: 450px"
+
+      src= "https://cdn.glitch.com/5a041da6-312a-463e-82da-3ce74e1de2f9%2Fpixellad86.png?v=1619467772664">
+</div>
+
+<div class= "ad2">
+ <img
+      style= "height: 120px; width: 430px"
+      src= "https://cdn.glitch.com/5a041da6-312a-463e-82da-3ce74e1de2f9%2F32ADS1111.png?v=1619467733511">
+</div>
+
+<div class= "ad3">
+ <img
+      style= "height: 180px; width: 550px"
+      src= "https://cdn.glitch.com/5a041da6-312a-463e-82da-3ce74e1de2f9%2F09999%20copy.png?v=1619467755503">
+</div>
+
+<div class= "ad4">
+ <img style= "height: 200px; width: 500px;"
+      src= "https://cdn.glitch.com/5a041da6-312a-463e-82da-3ce74e1de2f9%2Fpng%20copy.png?v=1619467739113">
+</div>
+
+   <!--virus ads-->
+    <div class= "ad5">
+ <img style= "height: 200px; width: 500px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fvirus%20add.png?v=1620366644233">
+</div>
+      <div class= "ad8">
+ <img style= "height: 200px; width: 500px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fvirus%20add.png?v=1620366644233">
+</div>
+      <div class= "ad9">
+ <img style= "height: 200px; width: 500px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fvirus%20add.png?v=1620366644233">
+</div>
+      <div class= "ad10">
+ <img style= "height: 200px; width: 500px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fvirus%20add.png?v=1620366644233">
+</div>
+      <div class= "ad11">
+ <img style= "height: 200px; width: 500px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fvirus%20add.png?v=1620366644233">
+</div>
+     <div class= "ad32">
+ <img style= "height: 200px; width: 500px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fvirus%20add.png?v=1620366644233">
+</div>
+     <div class= "ad33">
+ <img style= "height: 200px; width: 500px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fvirus%20add.png?v=1620366644233">
+</div>
+     <div class= "ad34">
+ <img style= "height: 200px; width: 500px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fvirus%20add.png?v=1620366644233">
+</div>
+    <div class= "ad34">
+ <img style= "height: 200px; width: 500px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fvirus%20add.png?v=1620366644233">
+</div>
+    <!-- KAREN ads-->
+    <div class= "ad6">
+ <img style= "height: 200px; width: 500px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fkarensentyoh%20copy.png?v=1620368125213">
+</div>
+     <div class= "ad12">
+ <img style= "height: 200px; width: 500px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fkarensentyoh%20copy.png?v=1620368125213">
+</div>
+     <div class= "ad13">
+ <img style= "height: 200px; width: 500px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fkarensentyoh%20copy.png?v=1620368125213">
+</div>
+     <div class= "ad14">
+ <img style= "height: 200px; width: 500px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fkarensentyoh%20copy.png?v=1620368125213">
+</div>
+     <div class= "ad15">
+ <img style= "height: 200px; width: 500px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fkarensentyoh%20copy.png?v=1620368125213">
+</div>
+     <div class= "ad16">
+ <img style= "height: 300px; width: 600px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fkarensentyoh%20copy.png?v=1620368125213">
+</div>
+     <div class= "ad17">
+ <img style= "height: 300px; width: 600px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fkarensentyoh%20copy.png?v=1620368125213">
+</div>
+     <div class= "ad18">
+ <img style= "height: 300px; width:600px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fkarensentyoh%20copy.png?v=1620368125213">
+</div>
+    <div class= "ad19">
+ <img style= "height: 300px; width:600px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fkarensentyoh%20copy.png?v=1620368125213">
+</div>
+    <div class= "ad20">
+ <img style= "height: 300px; width:600px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fkarensentyoh%20copy.png?v=1620368125213">
+</div>
+    <div class= "ad21">
+ <img style= "height: 300px; width:600px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fkarensentyoh%20copy.png?v=1620368125213">
+</div>
+    <div class= "ad22">
+ <img style= "height: 300px; width:600px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fkarensentyoh%20copy.png?v=1620368125213">
+</div>
+    <div class= "ad23">
+ <img style= "height: 300px; width:600px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fkarensentyoh%20copy.png?v=1620368125213">
+</div>
+  <!--gif ad-->
+    <div class= "ad7">
+ <img style= "height: 350px; width: 600px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fhotgirls.gif?v=1620368007191">
+</div>
+    <div class= "ad24">
+ <img style= "height: 350px; width: 600px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fhotgirls.gif?v=1620368007191">
+</div>
+    <div class= "ad25">
+ <img style= "height: height: 350px; width: 600px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fhotgirls.gif?v=1620368007191">
+</div>
+    <div class= "ad26">
+ <img style= "height: 3height: 350px; width: 600px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fhotgirls.gif?v=1620368007191">
+</div>
+    <div class= "ad27">
+ <img style= "height: 350px; width: 600px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fhotgirls.gif?v=1620368007191">
+</div>
+     <div class= "ad28">
+ <img style= "height: 350px; width: 600px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fhotgirls.gif?v=1620368007191">
+</div>
+     <div class= "ad29">
+ <img style= "height: 350px; width: 600px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fhotgirls.gif?v=1620368007191">
+</div>
+     <div class= "ad30">
+ <img style= "height: 350px; width: 600px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fhotgirls.gif?v=1620368007191">
+</div>
+     <div class= "ad31">
+ <img style= "height: 350px; width: 600px;"
+      src= "https://cdn.glitch.com/d3944d95-3297-4169-8315-aea60e245205%2Fhotgirls.gif?v=1620368007191">
+</div>
+
+  </div>
+
+
+</center>
+</html>
